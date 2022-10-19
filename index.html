@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Outer div containing all the divs and html elements -->
+
+    <div class="outer">
+      <h3>Welcome Back! </h3>
+      <p>Good to see you again</p>
+
+      <!-- This div provides login information -->
+
+      <div class="inner">
+
+        <!-- Form -->
+        <form action="">
+          <h2>Log in to Your Account</h2>
+          <select name="Language" id="lang">
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Rusi">Spanish</option>
+          </select>
+          <div class="row">
+
+            <!-- Login through Username and Password  -->
+
+
+            <div class="column ">
+              <input type="text" placeholder="Username" /><br /><br />
+              <input type="text" placeholder="Password" /> <br />
+              <br />
+            </form>
+            <div class="remember">
+              <input type="checkbox" />
+              <label for="">Remember Me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button>Log in Here</button> <br />
+            </div>
+
+            <!-- Login through Accounts such as Google, Facebook, LinkedIn, Github -->
+
+            <div class="column secondColumn">
+<label> <span class="logo"><img src="https://img.icons8.com/office/344/google-logo.png" alt=""> Google </span></label> <br> <br>
+<label> <span class="logo"><img src="https://img.icons8.com/color/344/facebook-circled--v1.png" alt=""> Facebook</span></label> <br> <br>
+<label> <span class="logo"><img src="https://img.icons8.com/fluency/344/linkedin-circled.png" alt=""> LinkedIn</span></label><br> <br>
+<label> <span class="logo"><img src="https://img.icons8.com/ios-filled/344/github.png" alt=""> Github</span></label><br> <br>
+            </div>
+          </div>
+          <p>Need an account? <a href="#">Sign up</a></p>
+      </div>
+    </div>
+  </body>
+</html>
